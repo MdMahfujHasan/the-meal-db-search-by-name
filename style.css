@@ -1,6 +1,24 @@
 body{
     background-color: #F5F5F5;
 }
+#top-nav{
+    padding: 10px;
+    background-image: linear-gradient(to right, darkviolet, white);
+}
+.fas.fa-bars{
+    color: black;
+    font-size: 2em;
+    margin-top: 7px;
+}
+#mealdb-title{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, darkviolet, white);
+    box-shadow: 7px 7px 15px blueviolet;
+}
 #display-meals{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -10,10 +28,13 @@ body{
 #single-meal{
     align-items: center;
     height: 500px;
-    border-radius: 5px;
-    overflow-y: scroll;
+    border-radius: 10px;
+    overflow: hidden;
     box-shadow: 7px 7px 15px gray;
     padding: 10px;
+}
+#single-meal:hover{
+    overflow-y: scroll;
 }
 #single-meal img{
     border: 1px solid black;
@@ -21,6 +42,7 @@ body{
 #single-meal img:hover{
     transition: 0.3s ease-out;
     transform: scale(1.11);
+    cursor: zoom-in;
 }
 #meal-name{
     color: white;
@@ -52,4 +74,10 @@ body{
 #instructions{
     background-color: #FFF5EE;
     border-radius: 5px;
+}
+footer{
+    color: white;
+    background-color: #000000e6;
+    margin-top: 25px;
+    padding: 100px;
 }

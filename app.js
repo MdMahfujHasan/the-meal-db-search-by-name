@@ -1,14 +1,3 @@
-// const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=`
-// fetch(url)
-//     .then(response => response.json())
-//     .then(data => displayMeal(data.meals))
-
-// const displayMeal = meals => {
-//     for (meal of meals) {
-//         console.log(meal)
-//     }
-// }
-
 document.getElementById('search-button').addEventListener('click', function () {
     document.getElementById('display-meals').innerText = '';
     const searchText = document.getElementById('input-field').value;
