@@ -1,0 +1,55 @@
+body{
+    background-color: #F5F5F5;
+}
+#display-meals{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+#single-meal{
+    align-items: center;
+    height: 500px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    box-shadow: 7px 7px 15px gray;
+    padding: 10px;
+}
+#single-meal img{
+    border: 1px solid black;
+}
+#single-meal img:hover{
+    transition: 0.3s ease-out;
+    transform: scale(1.11);
+}
+#meal-name{
+    color: white;
+    background-color: #000000cc;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 20px;
+}
+#origin-type{
+    background-color: #FFE4E1;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#youtube{
+    text-decoration: none;
+    color: white;
+    background-color: #ff0000bf;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+#ingredients{
+    background-color: #AFEEEE;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#instructions{
+    background-color: #FFF5EE;
+    border-radius: 5px;
+}
